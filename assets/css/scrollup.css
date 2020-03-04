@@ -1,0 +1,8 @@
+#scrollUp{
+          height:38px;
+          width:38px;
+          background:url(../img/top.png) no-repeat;
+          bottom:50px;
+          right:70px;
+          text-indent:-99999px
+}

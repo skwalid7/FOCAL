@@ -1,0 +1,331 @@
+	/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:   Focal
+	Version:    1.0
+	Last change:    24/03/17 [fixed Float bug, vf]
+	Author Name: Author Name
+	Primary use:    Project Type
+	-------------------------------------------------------------------*/
+
+
+	/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+	-------------------------------------------------------------------*/
+
+	/*
+	==========================================
+    Reset Css
+	==========================================
+	*/
+	html{
+		scroll-behavior: smooth;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	ul li {
+		list-style: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6{
+		margin: 0;
+		font-weight: bold;
+		color: #566366;
+	}
+	p{
+		color: #919191;
+	}
+
+	/* hero-area  */
+
+	.hero-area{
+		background:url('../img/hero_bg.jpg');
+		background-position:center;
+		background-size:cover;
+		/*height:100vh;*/
+
+	}
+	.hero-content {
+		margin: 370px 0px 380px;
+	}
+	.hero-content h1 {
+		color: white;
+		font-weight: bold;
+		font-size: 55px;
+		border-top: 3px solid;
+		border-bottom: 3px solid;
+		padding: 5px 0px;
+	}
+	.hero-content a{
+		border-radius: 0px;
+		border: 3px solid;
+		font-size: x-large;
+		margin-top: 50px;
+	}
+	/*Start Nav Area*/
+	.nav-item {
+		padding-left: 15px;
+	}
+	.nav-link{
+		color: white !important;
+	}
+	.nav-link:hover{
+		color: #2ecc71 !important;
+	}
+	.active-link{
+		color: #2ecc71 !important;
+	}
+	/*Start Home area*/
+	.home-area{
+		background: white;
+		padding: 100px 0px;
+	}
+	.home-content p {
+		padding-top: 30px;
+	}
+	/*Start-about-me area*/
+	.about-me-area{
+		background-color: #f2f2f1;
+	}
+	.about-me-head{
+		padding: 100px 60px 0px 70px;
+	}
+	.about-me-head p{
+		padding-top: 50px;
+	}
+	.about-me-icon-area{
+		padding: 80px 0px 0px 70px;
+	}
+	.about-me-icon h5 {
+		padding: 10px 0px;
+		margin-left: 70px;
+		margin-top:-65px;
+	}
+	.about-me-icon i {
+    color: 
+    #2ecc71;
+    font-size: 33px;
+    position: inherit;
+    top: 0%;
+}
+	.about-me-icon p{
+		padding:10px 0px 90px 70px;
+	}
+	/*Start My skills area */
+	.skills-area{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background: white;
+	}
+	.skills-head p {
+		padding-top: 50px;
+	}
+	.skills-head a{
+		border-radius: 0px;
+		border: 2px solid;
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	.progress {
+		height: 20px;
+		border-radius: 0px;
+		margin: 23px 0px;
+	}
+	.progress-bar{
+		font-size: 15px;
+		text-align: right;
+		font-weight: bold;
+		padding-right: 10px;
+	}
+	/*Start Resume area*/
+	.resume-area{
+		padding: 100px 0px;
+		background:  #f2f2f1;
+	}
+	.resume-content p {
+		padding-top: 40px;
+	}
+	.resume-content button {
+		border: 2px solid;
+		font-size: 16px;
+		margin-top: 40px;
+		padding: 10px 17px;
+		border-radius: 0px;
+	}
+	/*Start My Education area*/
+	.education-area{
+		background: #fff;
+	}
+	.education-head{
+		padding-top: 100px;
+		padding-right:45px; 
+	}
+	.education-head p{
+		padding-top: 30px;
+	}
+	.education-content {
+		padding-top: 165px;
+		padding-bottom: 50px;
+	}
+	.education-content p {
+		padding-top: 10px;
+	}
+	.education-content p span {
+		font-weight: bold;
+	}
+	.gpa {
+
+		background:#28a745;
+		color:white;
+		padding: 2px 7px;
+		font-size: 12px;
+	}
+	.edu-text{
+		padding:0px;
+	}
+	/*Start review area*/
+	.review-area{
+		background: #f2f2f1;
+		padding: 100px 0px 30px;
+	}
+	.single-review-item h6{
+		padding: 20px 0px;
+	}
+	/*Start Portfolio area*/
+	.portfolio-area {
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+
+	.portfolio-head h3 {
+		font-weight: bold;
+		padding: 10px 0px 30px;
+		color: 
+
+		#4f4f4f;
+
+	}
+	.portfolio-head p {
+
+		color: 
+
+		#666;
+
+	}
+	.projectimg{
+		padding-top: 30px;
+	}
+	.mix{
+		padding:15px; 
+	}
+	.mix-control {
+		margin-top: 15px;
+	}
+	.mix-control h4 {
+
+		padding: 20px 25px 9px;
+		color: 
+
+		white;
+
+	}
+	.mix-control ul {
+
+		padding: 25px;
+
+	}
+	.mix-control ul li{
+		padding: 3px 0px;
+	}
+	.mix-control ul li a {
+		color:silver !important;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.mix-control ul li a:hover{
+		color:white!important;
+	}
+	/*start foot areA*/
+	.footer-area{
+		background:#252e30;
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+
+	.foot-text h3 {
+
+		color: 
+
+		white;
+		font-weight: bold;
+
+
+	}
+	.foot-text p {
+		padding: 45px 0px 0px;
+		color: 
+		#666;
+		font-size: 16px;
+	}
+
+	.contact {
+
+		padding: 50px 0px;
+
+	}
+	.contact p {
+
+		padding: 0px 0px;
+
+	}
+	.contact p span{
+
+		font-weight: bold;
+		color:#ddd;
+
+	}
+	.form-control{
+		background-color: #4b5456;
+		border: 1px solid black;
+	}
+	.form-group label{
+		color: white;
+	}
+	.btn.text-light {
+		background: 
+		black;
+		padding: 10px 20px;
+	}
+	.foot-icon i{
+		color: #939393;
+		font-size:27px;
+		margin:10px;
+	}
+	.foot-icon.text-center {
+		margin-top: 30px;
+	}
+	.copy-area{
+		background-color: black;
+		padding:30px 0px; 
+	}
+	.copy{
+		padding-top: 15px;
+	}
+	.copy a{
+		color: #666;
+		text-decoration: none;
+	}
+	.copy a:hover{
+		color:#28a745;
+	}
+
+

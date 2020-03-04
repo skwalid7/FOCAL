@@ -1,0 +1,481 @@
+/* Medium Layout:1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.hero-content {
+    margin: 300px 0px 225px;
+}
+.hero-content h1 {
+    font-size: 46px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.hero-content a{
+    border: 2px solid;
+    font-size: large;
+    margin-top: 40px;
+}
+.home-area {
+    background: white;
+    padding: 70px 0px;
+}
+.home-content p {
+    padding-top: 17px;
+}
+.about-me-head {
+    padding: 25px 0px 0px 20px;
+}
+.about-me-icon-area {
+    padding: 0px 0px 0px 20px;
+}
+.about-me-icon h5 {
+    padding: 3px 0px;
+    margin-left: 50px;
+    font-size: initial;
+    margin-top: -50px;
+}
+.about-me-icon i {
+    font-size: 40px;
+}
+.about-me-icon p {
+    padding: 0px 0px 0px 50px;
+}
+p br {
+    display: none;
+}
+.skills-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skills-head p {
+    padding-top: 30px;
+    font-size: 18px;
+}
+.skills-head a {
+    border: 1px solid;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.resume-area {
+    padding: 40px 0px;
+}
+.resume-content button {
+    border: 2px solid;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.education-head {
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.education-content {
+    padding-top: 111px;
+    padding-bottom: 0px;
+}
+.review-area {
+    padding: 50px 0px 0px;
+}
+p.text-center.font-italic {
+    font-size: 18px;
+}
+.single-review-item h6 {
+    padding: 10px 0px;
+}
+.portfolio-area {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.mix {
+    padding: 5px;
+}
+.mix-control {
+    margin-top: 5px;
+}
+.mix-control ul {
+    padding: 8px 25px;
+}
+.col-sm-4.mixit-but.col-md-4 {
+    padding: 0px 5px;
+}
+#scrollUp {
+    bottom:25px;
+    right: 30px;
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.hero-content {
+    margin: 200px 0px 100px;
+}
+.hero-content h1 {
+    font-size: 34px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 3px 0px;
+}
+.hero-content a{
+    border: 2px solid;
+    font-size:smaller;
+    margin-top: 34px;
+}
+.nav-item {
+    padding-left:7px;
+}
+a.nav-link {
+    font-size: 12px;
+}
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: 16%;
+}
+.home-area {
+    padding: 30px 0px;
+}
+h3{
+	font-size: 20px;
+}
+h5 {
+    font-size: 15px;
+}
+p{
+	font-size: 14px;
+}
+.home-content p {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+.about-me-head {
+    padding: 20px 0px 0px 0px;
+}
+.about-me-head p {
+    padding-top: 10px;
+    text-align: justify;
+}
+.about-me-icon-area {
+    padding: 0px;
+}
+.about-me-icon i {
+    font-size: 30px;
+    position: relative;
+    top: 0%;
+}
+.about-me-icon h5 {
+    padding: 10px 0px;
+    margin-left: 55px;
+    font-size: 15px;
+    margin-top: -40px;
+}
+.about-me-icon p {
+    padding: 12px 0px 0px 55px;
+}
+.col-md-5.col-sm-5.pl-0 img {
+    margin: 85px 0px;
+}
+.skills-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.skills-head p {
+    padding-top: 10px;
+}
+.skills-head a {
+    border: 1px solid;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.progress {
+    height: 15px;
+    margin: 14px 0px;
+}
+.resume-area {
+    padding: 35px 0px;
+}
+.resume-content p {
+    padding-top: 10px;
+}
+p br {
+    display: none;
+}
+.resume-content button {
+    border: 1px solid;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.education-head {
+    padding-top: 35px;
+    padding-right: 35px;
+}
+.education-content {
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+.education-content p {
+    padding-top: 5px;
+}
+.review-area {
+    padding: 25px 0px 0px;
+}
+.single-review-item h6 {
+    padding: 0px;
+}
+.portfolio-area {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.portfolio-head h3 {
+    padding: 10px 0px 10px;
+}
+.projectimg {
+    padding-top: 0px;
+}
+.mix-control h4 {
+    padding: 10px 20px 0px;
+    font-size: 16px;
+}
+.mix-control ul {
+    padding: 4px 20px;
+}
+.mix-control ul li {
+    padding: 1px 0px;
+}
+.mix {
+    padding: 2px;
+}
+.mix-control {
+    margin-top: 3px;
+}
+.col-sm-4.mixit-but.col-md-4 {
+    padding: 0px 2px;
+}
+.footer-area {
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+.foot-text p {
+    padding: 10px 0px 0px;
+    color: #c0c0c0;
+    font-size: 15px;
+}
+.form-control {
+    height: 30px;
+}
+textarea#msg {
+    height: 100px;
+}
+.contact-but {
+    font-size: smaller;
+}
+.copy-area {
+    background-color: black;
+    padding: 2px 0px;
+}
+.foot-icon i {
+    font-size: 20px;
+    margin: 0px 16px;
+}
+.foot-icon.text-center {
+    margin-top: 10px;
+}
+#scrollUp {
+    bottom: 15px;
+    right: 15px;
+}
+}
+/* wide Mobile Layout;488px  */
+@media only screen and (min-width:480px) and (max-width:767px) {
+	
+}
+/* Mobile Layout: 320px;. */
+@media only screen and (max-width:767px) {
+	.hero-content h1 {
+    font-size: 14px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.hero-content {
+    margin: 150px 0px 150px;
+}
+.hero-content a{
+    border: 2px solid;
+    font-size: x-small;
+    margin-top: 20px;
+}
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: -5px;
+}
+a.navbar-brand img {
+    width: 65%;
+}
+.navbar-dark .navbar-toggler {
+    border:none; 
+    padding: 0px;
+    font-size: 18px;
+}
+.nav-item {
+    padding-left: 0px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+.home-area {
+    padding: 30px 0px;
+}
+h3{
+    font-size: 20px;
+}
+h5 {
+    font-size: 14px;
+}
+p {
+    font-size: 14px;
+}
+.home-content p {
+    padding-top: 10px;
+    text-align: justify;
+}
+.col-md-5.pl-0 {
+    padding: 0px;
+}
+.about-me-head {
+    padding: 0px;
+}
+.about-me-head h3 {
+    padding-top: 20px;
+}
+.about-me-head p {
+    padding-top: 15px;
+}
+.about-me-icon-area {
+    padding:0px;
+}
+.about-me-icon h5 {
+    padding: 65px 0px 0px;
+    margin-left: 60px;
+}
+.about-me-icon i {
+    font-size: 25px;
+     position: inherit;;
+    float: left;
+}
+.about-me-icon p {
+    padding: 10px 0px 0px 60px;
+}
+.skills-area {
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+.skills-head p {
+    padding-top: 20px;
+}
+.skills-head a{
+    border: 1px solid;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.progress-area {
+    padding: 35px 15px;
+}
+.progress {
+    height: 15px;
+    border-radius: 0px;
+    margin: 10px 0px;
+}
+.resume-area {
+    padding: 40px 0px;
+}
+.resume-content p {
+    padding-top: 15px;
+}
+.resume-content p {
+    padding-top: 15px;
+    text-align: justify;
+}
+.resume-content button {
+    border: 1px solid;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 4px 9px;
+}
+.education-head {
+    padding-top: 35px;
+    padding-right: 15px;
+}
+.education-head p {
+    padding-top: 15px;
+    text-align: justify;
+}
+.education-content {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.education-content p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+hr {
+    margin-bottom: 0rem;
+}
+.review-area {
+    padding: 35px 0px 0px;
+}
+.single-review-item h6 {
+    padding: 5px 0px;
+}
+.portfolio-area {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.portfolio-head h3 {
+    padding: 10px 0px 10px;
+}
+.mix-control ul li {
+    padding: 0px 0px;
+    display: inline;
+    margin-right: 30px;
+}
+.mix-control h4 {
+    padding: 15px 25px 0px;
+    font-size: 16px;
+}
+.col-sm-4.mixit-but.col-md-4 {
+    padding: 2px;
+}
+.mix-control ul {
+    padding: 10px 25px;
+}
+.mix {
+    padding: 2px;
+}
+.footer-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot-text h3 {
+    padding-bottom: 20px;
+}
+.foot-text p {
+    padding:0px;
+    font-size: 14px;
+}
+.contact {
+    padding: 15px 0px;
+}
+.contact-but {
+    font-size: 14px;
+    padding: 0px 49px;
+    width: 100%;
+}
+.copy {
+    padding-top: 0px;
+}
+.copy-area {
+    padding: 15px 0px;
+}
+#scrollUp {
+    bottom: 10px;
+    right: 8px;
+}
+}	
